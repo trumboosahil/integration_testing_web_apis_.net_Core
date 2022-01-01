@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4e75f085-c7df-4047-a43b-95ea867792d0": {
+      "ProjectGuid": "4e75f085-c7df-4047-a43b-95ea867792d0",
+      "DisplayName": "IntegrationTesting.Web",
+      "ColorIndex": 0
+    },
+    "3743c604-d850-4e47-b353-1a1450aef3c2": {
+      "ProjectGuid": "3743c604-d850-4e47-b353-1a1450aef3c2",
+      "DisplayName": "Integrationtesting.Test",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
