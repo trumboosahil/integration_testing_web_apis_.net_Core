@@ -73,8 +73,7 @@ namespace Integrationtesting.Test
         {
             var client = _factory.CreateClient();
 
-            var response = await client.GetAsync($"/Customer/{id}").ConfigureAwait(false);
-            Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
+            var response = await client.GetAsync($"/Customer/{id}").ConfigureAwait(false);          
             response.EnsureSuccessStatusCode(); // Status Code 200-299
             var content = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
             var customer = JsonConvert.DeserializeObject<Customer>(content);
