@@ -10,6 +10,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
+using Xunit.Priority;
 
 namespace Integrationtesting.Test
 {
@@ -23,7 +24,7 @@ namespace Integrationtesting.Test
 
         }
 
-        [Theory]
+        [Theory, Priority(10)]
         [InlineData(1)]
 
         public async Task Check_NotFoundWhenNoCustomerExists(int id)
@@ -34,7 +35,7 @@ namespace Integrationtesting.Test
             Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
         }
        
-        [Fact]
+        [Fact, Priority(2)]
         public async Task AddCustomer()
         {
             var client = _factory.CreateClient();
@@ -67,7 +68,7 @@ namespace Integrationtesting.Test
             Assert.Equal(customerresponse.FirstName, customer.FirstName);
 
         }
-        [Theory]
+        [Theory, Priority(1)]
         [InlineData(1)]
         public async Task Check_CustomerExistWhenOneIsInserted(int id)
         {

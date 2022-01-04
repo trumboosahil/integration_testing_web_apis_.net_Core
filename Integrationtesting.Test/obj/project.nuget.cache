@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JjzWFEF0nyUcG4jT3U8VNBKf+USsXLJXpL4UjuFvcMHG2P7ywC8uT8k2Fc6Q0fqK9XrwyMLuVV73qL4tuu/4SA==",
+  "dgSpecHash": "oaE9RZnh8ImtlYmt1dGXygrPxo7OBr3tzvJaFcxQkF6O008Lui3cmJDhN3KDEhmGEZd12FJ702grbidFyZ43OQ==",
   "success": true,
   "projectFilePath": "C:\\Git\\IntegrationTesting.Web\\Integrationtesting.Test\\Integrationtesting.Test.csproj",
   "expectedPackageFiles": [
@@ -151,6 +151,7 @@
     "C:\\Users\\Shafi\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\Shafi\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\Shafi\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\Shafi\\.nuget\\packages\\xunit.priority\\1.1.6\\xunit.priority.1.1.6.nupkg.sha512",
     "C:\\Users\\Shafi\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
